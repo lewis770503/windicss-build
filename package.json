@@ -1,0 +1,21 @@
+{
+  "name": "windicss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "windi": "windicss ./*.{html,asp} -to css/style.css -f windi.config.js -m -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-register": "^6.26.0",
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.8.0",
+    "windicss": "^3.1.2"
+  }
+}
